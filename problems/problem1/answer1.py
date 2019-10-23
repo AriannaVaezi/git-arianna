@@ -1,7 +1,6 @@
 class Solution(object):
     def reverse(self, x):
-        """
-        :type x: int
-        :rtype: int
-        """
-        return None
+        int xr = x
+        for i in x:
+            xr = i + xr
+        return xr
