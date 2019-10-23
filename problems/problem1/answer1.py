@@ -4,4 +4,7 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        return None
+        y = ''
+        for digit in str(x):
+            y = digit + y
+        return (int(y))
